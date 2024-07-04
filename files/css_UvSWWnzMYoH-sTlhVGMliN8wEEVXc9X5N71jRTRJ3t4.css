@@ -9525,7 +9525,7 @@ a.btn--up:hover {
   -webkit-box-pack: right;
   -ms-flex-pack: right;
   justify-content: right;
-  margin-top: 5rem;
+  margin-top: 4rem;
   align-items: flex-start;
 }
 .menu-main__list li.menu-main__item .show-menu li {
@@ -11318,7 +11318,7 @@ html {
 }
 @media screen and (max-width: 721px) {
   .menu-main__list li.menu-main__item .show-menu {
-    top: 103px;
+    top: 133px;
     min-height:44vh;
     padding-bottom: 3rem;
   }
@@ -11350,6 +11350,7 @@ html {
   .menu-main__list li {
     padding-top: 5px;
     font-size: 1.8rem;
+    margin-bottom: 0;
   }
   .menu-main__list li div.menu-main__link {
 /*    padding: 3px 5px;*/
