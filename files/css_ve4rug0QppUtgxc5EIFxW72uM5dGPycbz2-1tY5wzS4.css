@@ -1,0 +1,175 @@
+/* @license GNU-GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+@media print {
+  *,
+  *:before,
+  *:after {
+    -webkit-print-color-adjust: exact;
+    background: transparent;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  body {
+    padding: 0 !important;
+  }
+  .bar__dipta,
+  .main-wrap.main-container,
+  .content__wrap {
+    display: block !important;
+  }
+  .cover.cover-no-img {
+    min-height: initial;
+  }
+  .cover-wrap .page__header__wrap {
+    background-color: #e7f1f3 !important;
+    min-height: initial;
+    padding: 2rem;
+  }
+  .page__header__wrap--formation .title__header__wrap {
+    padding: 2rem 2rem 4rem 0rem;
+  }
+  .page__header__wrap--formation .title__header__wrap h1 {
+    font-size: 23px;
+  }
+  #toolbar-bar,
+  .comment-comment-form,
+  .node__list.node__list--tags,
+  .search__btn,
+  .clock__wrap,
+  .menu-top__list,
+  .logo-menu-main.menu-main__btn,
+  .navbar-user.block-user-account-header-block,
+  .hero-action-button,
+  .region--navigation,
+  .who_is_online__wrap,
+  .footer .footer-top,
+  .node__tags__item.flag__wrap--follow,
+  .menu__wrap.menu-main__wrap--original,
+  .xarxa-social__list,
+  .footer-dipta.footer-dipta--black .legal-link__list,
+  .region--content-top,
+  .more__wrap {
+    display: none;
+  }
+  footer.footer {
+    background-color: #f8f8f8 !important;
+    padding: 1rem;
+  }
+  .logo__wrap {
+    padding: 1rem 2rem;
+  }
+  .logo__wrap .logo__img--web,
+  .footer-dipta__info .footer-dipta__icon {
+    fill: #000;
+  }
+  .logo-header {
+    text-align: left !important;
+  }
+  .header.bg-original {
+    background-color: #0083a9 !important;
+  }
+  .node__info__header {
+    background-color: #f9f9f9 !important;
+  }
+  .tag--main {
+    background-color: #4da8c3 !important;
+  }
+  .footer-intradt {
+    border-top: 1px #ccc solid;
+  }
+  .exclamation {
+    border: 1px #ccc solid;
+  }
+  .exclamation--tip {
+    background-color: #e6f9e6 !important;
+  }
+  .exclamation--warning {
+    background-color: #fae2e2 !important;
+  }
+  .exclamation--note {
+    background-color: #e7f2fa !important;
+  }
+  .exclamation--info {
+    background-color: #fff2db !important;
+  }
+  .title-tip {
+    background-color: #a7d581 !important;
+  }
+  .title-warning {
+    background-color: #f75e6a !important;
+  }
+  .title-note {
+    background-color: #6ab0de !important;
+  }
+  .title-info {
+    background-color: #f8af5c !important;
+  }
+  .comment-published {
+    background-color: #f9f9f9 !important;
+  }
+  .indented .comment-published {
+    background-color: #ecf5f8 !important;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+    display: none;
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .navbar {
+    display: none;
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
